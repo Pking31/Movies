@@ -32,7 +32,7 @@ The "video", "imdb_id", "adult", "original_title", "vote_count", "poster_path" a
 These transformation requirements have been focused on achieving a functional MVP quickly and efficiently. Once done, the necessary transformations were carried out to prepare the data and advance in the implementation of the recommendation system.
 
 ## Exploratory Data Analysis (EDA)
-![]()
+![Dashboard Power BI|100](https://github.com/Pking31/Movies/blob/aeb92ba0a72968763ff8d029119d9a6f03179251/imag/BI.JPG)
  An exploratory analysis of the data has been carried out after having cleaned them. During the analysis, the relationships between the dataset variables have been investigated, outliers or anomalies have been identified, and interesting patterns have been discovered that could be useful in further analysis. 
 To explore data was created a dashboard on POWER BI, you can check it out in "Moviedas.pbix".
 
