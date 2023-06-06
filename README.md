@@ -1,4 +1,4 @@
-![](https://app.logo.com/view/logo_e33385a3-196f-4273-9486-54048aac293b)
+![](https://github.com/Pking31/Movies/blob/da48144328560bcbeae3764485ade057233991fa/imag/logo1.JPG)
 
 # Movies
 Analysis and recomendation system(ML).
