@@ -1,4 +1,4 @@
-![]([https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png](https://github.com/Pking31/Movies/blob/6edaffabe50599a5931b220f1cb7a9da2819dba1/imag/king-analytics-low-resolution-logo-white-on-transparent-background.png)){width='100px'}
+![](https://github.com/Pking31/Movies/blob/6edaffabe50599a5931b220f1cb7a9da2819dba1/imag/king-analytics-low-resolution-logo-white-on-transparent-background.png){width='100px'}
 
 # Movies
 Analysis and recomendation system(ML).
