@@ -1,7 +1,7 @@
 ![](https://github.com/Pking31/Movies/blob/da48144328560bcbeae3764485ade057233991fa/imag/logo1.JPG)
 
 # Movies
-Analysis and recomendation system(ML).
+Analysis and recommender system(ML).
 ## Content description
 - "Moviesdas.pbix" Dashboard on Power BI.
 - Folder "datasets" : contains all the databases resulting from the cleaning of the original database.
@@ -35,8 +35,39 @@ These transformation requirements have been focused on achieving a functional MV
 ![Dashboard Power BI|100](https://github.com/Pking31/Movies/blob/aeb92ba0a72968763ff8d029119d9a6f03179251/imag/BI.JPG)
  An exploratory analysis of the data has been carried out after having cleaned them. During the analysis, the relationships between the dataset variables have been investigated, outliers or anomalies have been identified, and interesting patterns have been discovered that could be useful in further analysis. 
 To explore data was created a dashboard on POWER BI, you can check it out in "Moviedas.pbix".
-
 One of the prominent visualizations in the EDA is the word cloud, which shows the most frequent words in movie titles. This information could be used to improve the recommendation system.See (EDA and ML)
+
+## API development:
+ 
+To make the company's data available, an API has been implemented using the FastAPI framework. 6 functions have been created for the endpoints that will be consumed in the API, each one with its respective @app.get('/') decorator:
+- get_collection_reveneu(year):
+It allows entering the name of the month as a parameter and returns the historical number of movies released in that month.
+- get_min_budget(day):
+It allows entering the name of the day of the week (respecting accentuation) as a parameter and returns the historical number of movies released on that day.
+- get_count_movies(franchise):
+Allows you to enter the name of a franchise (respecting proper name capitalization) and returns the number of movies in that franchise, the total profit, and the average profit.
+- get_country(country):
+It allows entering the name of a country (respecting the capitalization of the proper name) and returns the number of films produced in that country.
+- get_company_revenue(producer):
+It allows entering the name of a production company, (respecting the capitalization of proper name), and returns the total profit and the number of films produced by that production company.
+- get_return (movie):
+Allows you to enter the name of a movie (respecting the capitalization of the proper name) and returns the investment, the profit, the return and the year of release of the movie.
+
+## Recommender System (see Eda and ML)
+Once the data has been made consumable through the API and a thorough analysis of the data has been loaded, a machine learning model has been implemented to create a movie recommendation system. The system is based on finding the similarity of genres between a given movie and the rest of the movies, and returns an ordered list of the 5 most similar movies. This functionality has been implemented as an additional function in the API and has been called recommend('title').
+
+## Data source
+Dataset (movies_dataset.csv): File with the data that needs to be processed, keep in mind that there is data that is nested (a dictionary or a list as values in the row). Data dictionary (Data Dictionary - Movies -.csv): Dictionary with some descriptions of the columns available in the dataset.
+
+## Tools
+FastApi
+uvicorn
+python
+panda
+Numpy
+scikit-learn
+Power BI
+
 
 
 
