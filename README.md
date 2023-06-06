@@ -1,4 +1,4 @@
-![](https://github.com/Pking31/Movies/blob/6edaffabe50599a5931b220f1cb7a9da2819dba1/imag/king-analytics-low-resolution-logo-white-on-transparent-background.png)
+![](https://app.logo.com/view/logo_e33385a3-196f-4273-9486-54048aac293b)
 
 # Movies
 Analysis and recomendation system(ML).
